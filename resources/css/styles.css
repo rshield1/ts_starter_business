@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Playfair+Display:wght@700&display=swap');
+
+
+/* Global styles*/
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin: 0;
+    color: #B7B8BC;
+}
+
+.case,
+.teammate {
+    border: 2px solid white;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 30px 30px;
+}
+
+section.projects,
+section.contacts {
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+nav,
+footer,
+header {
+    background-color:#0B0D17;
+}
+
+
+/* Navigation */
+
+nav {
+    height: 80px;
+    position: fixed;    
+    width: 100%;
+    color: #FBFBFC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #282B37; 
+}
+
+img.logo {
+    height: 10.0rem;
+    margin: 10px 0;
+    margin-left: 1rem;
+}
+
+nav .links {
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin: 15px;
+}
+
+nav button {
+    background-color: #1875b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.burgermenu {
+    margin: auto;
+    margin-left: 10px;
+    display: none;    
+}
+
+.burgermenu img {
+    height: 30px;
+    width: 40px;
+    padding: 10px 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .links a {
+        display: none;
+    }
+
+    nav .burgermenu {
+        display: inline-block;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    nav button {
+        display: none;
+    }
+
+}
+
+/* Header */
+
+header {
+    background-image: url("../cover.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+header h1 {
+    max-width: 800px;
+    margin: 60px;
+}
+
+/* Projects */
+
+.cases {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.case {    
+    width: 300px;
+    min-height: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#goldenapple {
+    background-image: url("../goldenapple.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+#rostov {
+    background-image: url("../rostov.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 5;
+}
+
+#maliy {
+    background-image: url("../maliy.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 5;
+}
+
+#andybookstore {
+    background-image: url("../andybookstore.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+
+
+/* Team */
+
+.team h2 {
+    display: none;
+}
+
+.teammates {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teammate {
+    width: 250px;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+#rob {
+    background-image: url("../robstandinginsnow3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fatimata {
+    background-image: url("../Fatimata.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#christina {
+    background-image: url("../Christina.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mandy {
+    background-image: url("../Mandy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ben {
+    background-image: url("../Ben.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#eddie {
+    background-image: url("../Eddy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sherish {
+    background-image: url("../Sherish.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#julia {
+    background-image: url("../Julia.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#rod {
+    background-image: url("../Roderick.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mcox {
+    background-image: url("../mcox.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mark {
+    background-image: url("../Mark.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#danielle {
+    background-image: url("../Danielle.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#prince {
+    background-image: url("../Princeton.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Contacts */
+
+section.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contacts img {
+    width: 280px;
+    height: auto;
+    flex-grow: 2;
+}
+
+.contacts .content {
+    width: 280px;
+    padding-right: 40px;
+    margin: 20px 0;
+    flex-grow: 1;
+}
+
+
+/* Copyright */
+
+footer {          
+    padding: 5px 30px;
+    border-top: 2px solid #282B37;
+}
+
+footer p,
+footer a {
+    font-size: 0.75rem;
+    text-align: center;
+    color: #797A7F; 
+}
+
+
+
+/* Media queries */
+
+
+
+
+
+
+
+
+
+
