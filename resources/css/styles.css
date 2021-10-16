@@ -141,7 +141,7 @@ nav button {
 /* Header */
 
 header {
-    background-image: url("../cover.jpg");
+    background-image: url("../mainbackground.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -171,32 +171,32 @@ header h1 {
     align-items: flex-end;
 }
 
-#goldenapple {
-    background-image: url("../goldenapple.jpg");
+#codedreams {
+    background-image: url("../codedreams.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     flex-grow: 1;
 }
 
-#rostov {
-    background-image: url("../rostov.jpg");
+#learn {
+    background-image: url("../kidslearning.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     flex-grow: 5;
 }
 
-#maliy {
-    background-image: url("../maliy.jpg");
+#hike {
+    background-image: url("../hikingdreams.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     flex-grow: 5;
 }
 
-#andybookstore {
-    background-image: url("../andybookstore.jpg");
+#fitness {
+    background-image: url("../fitnessgrp.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
