@@ -11,6 +11,7 @@
 
 body {
     margin: 0;
+    background-color: spacegray;
 }
 
 h1,
@@ -146,7 +147,7 @@ header {
     background-position: center;
     background-size: cover;
     min-height: 500px;
-    color: white;
+    color: rgb(243, 241, 241);
     display: flex;
     align-items: center;
     padding-top: 80px;
@@ -350,7 +351,7 @@ footer p,
 footer a {
     font-size: 0.75rem;
     text-align: center;
-    color: #797A7F; 
+    color: #d7d8db; 
 }
 
 
